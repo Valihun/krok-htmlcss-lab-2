@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>The Chicago Times</title>
+		<style>
+			body,
+			h1,
+			h2,
+			h3,
+			h4,
+			p,
+			ul[class],
+			ol[class],
+			li,
+			figure,
+			figcaption,
+			blockquote,
+			dl,
+			dd {
+				margin: 0;
+			}
+
+			ul {
+				padding-inline-start: 0;
+			}
+
+			.header {
+				position: fixed;
+				top: 0;
+				background-color: black;
+				border-radius: 0px 0px 10px 10px;
+				height: 60px;
+				width: 100%;
+			}
+
+			.navbar {
+				width: 100%;
+			}
+
+			.header__list {
+				height: 60px;
+				font-size: large;
+				font-weight: 900;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.list__item > a {
+				color: white;
+				text-decoration: none;
+				font-family: 'Stick No Bills', sans-serif;
+				font-size: 20px;
+			}
+
+			.header__logo > a {
+				font-weight: 900;
+				color: white;
+				text-decoration: none;
+				font-family: 'Stick No Bills', sans-serif;
+				font-size: 35px;
+			}
+
+			.list__item {
+				list-style: none;
+			}
+
+			.container {
+				max-width: 960px;
+				margin: auto;
+			}
+
+			.main__block {
+				margin-top: 100px;
+			}
+
+			.news__header1 {
+				margin-top: 40px;
+				font-weight: 900;
+			}
+
+			.news__header1,
+			.news__header2,
+			.news__header3,
+			.news__header4 {
+				margin-bottom: 25px;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			.news__img {
+				width: 800px;
+				height: 600px;
+			}
+
+			.img__lbl {
+				width: 800px;
+				background-color: rgb(40, 40, 40);
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 13px;
+				margin-bottom: 40px;
+				margin-top: -4px;
+				text-align: center;
+			}
+
+			.news__text {
+				max-width: 800px;
+			}
+
+			.news__text > p {
+				font-family: 'Open Sans', sans-serif;
+				margin-bottom: 30px;
+			}
+
+			.footer {
+				background-color: #000;
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				border-radius: 10px 10px 0px 0px;
+			}
+
+			.footer__main {
+				display: flex;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				justify-content: space-between;
+				align-items: flex-start;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar container">
+				<ul class="header__list">
+					<li class="header__logo">
+						<a href="/">The Chicago Times</a>
+					</li>
+					<li class="list__item"><a href="/">News</a></li>
+					<li class="list__item"><a href="/">Login</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main__block container">
+			<article class="news__article">
+				<h1 class="news__header1">
+					Chicago shooting: CPD officer shot in South Shore; 1 killed,
+					15-year-old wounded, police say
+				</h1>
+				<h2 class="news__header2">
+					12th police officer shot in Chicago this year
+				</h2>
+				<h3 class="news__header3">Sun-Times Media Wire</h3>
+				<a href="https://www.youtube.com/watch?v=TyA-vsG29-U"
+					><img
+						class="news__img"
+						src="https://www.mystateline.com/wp-content/uploads/sites/17/2021/06/21179226690303.jpg?w=1280"
+						alt="Image from accident"
+				/></a>
+				<div class="img__lbl">
+					A Chicago Police officer was shot, a man was killed and a 15-year-old
+					wounded near 72nd and Jeffrey in South Shore, police said.
+				</div>
+				<section class="news__text">
+					<p>
+						CHICAGO -- A Chicago police officer was shot late Friday as officers
+						responded to a call of shots fired in South Shore and found a man
+						and a 15-year-old boy wounded by gunfire, authorities said.
+					</p>
+					<p>
+						The officer was hit several times but went on her own to a hospital
+						where she was stabilized, police said. Hours later she radioed that
+						she was doing okay.
+					</p>
+					<p>
+						"I just want to say thank you to everybody that responded, and I'll
+						be back soon," the officer said around 4:55 a.m. "Have a good night,
+						y'all be safe."
+					</p>
+					<p>
+						This is the 12th time a CPD officer has been shot this year,
+						according to police data.
+					</p>
+					<p>
+						Police released few details of the shooting, but said it happened
+						around 10:50 p.m. as Third District officers were responding to a
+						call and found a 25-year-old man on the ground.
+					</p>
+					<p>
+						As they approached to investigate, shots were fired and the officer
+						was hit, police said in a statement.
+					</p>
+					<p>
+						None of the officers returned fire, it said. The officer and her
+						partner drove to a hospital.
+					</p>
+					<p>
+						The 25-year-old was taken to the University of Chicago Medical
+						Center with several gunshot wounds and was pronounced dead, police
+						said. A 15-year-old boy also found at the scene was shot in the legs
+						and was taken to Comer Children's Hospital in fair condition. No one
+						was in custody. Police encourage anyone who may have information on
+						the shooting to call Area One detectives at 312-747-8380.
+					</p>
+					<p><i>WLS-TV contributed to this report.</i></p>
+					<p>
+						<i
+							>Source: ( Sun-Times Media Wire - Copyright Chicago Sun-Times
+							2021.)</i
+						>
+					</p>
+				</section>
+			</article>
+			<aside>
+				<h4 class="news__header4">Saturday, September 25, 2021 1:46PM</h4>
+			</aside>
+		</main>
+
+		<footer class="footer">
+			<aside class="footer__main container">
+				<section>
+					<ul class="footer__list">
+						<li class="list__item"><a href="/">Home</a></li>
+						<li class="list__item"><a href="/">Weather</a></li>
+						<li class="list__item"><a href="/">Traffic</a></li>
+						<li class="list__item"><a href="/">Watch</a></li>
+						<li class="list__item"><a href="/">Photos</a></li>
+						<li class="list__item"><a href="/">Apps</a></li>
+					</ul>
+				</section>
+				<section>
+					<ul class="footer__list1">
+						<li class="list__item"><a href="/">Chicago Cook</a></li>
+						<li class="list__item"><a href="/">North Suburbs</a></li>
+						<li class="list__item"><a href="/">West Suburbs</a></li>
+						<li class="list__item"><a href="/">South Suburbs</a></li>
+						<li class="list__item"><a href="/">NW Indiana</a></li>
+					</ul>
+				</section>
+				<section>
+					<ul class="footer__list2">
+						<li class="list__item"><a href="/">U.S. & World</a></li>
+						<li class="list__item"><a href="/">I-Team</a></li>
+						<li class="list__item"><a href="/">Politics</a></li>
+						<li class="list__item"><a href="/">Entertainment</a></li>
+						<li class="list__item"><a href="/">Consumers & Business</a></li>
+						<li class="list__item"><a href="/">Health and Covid</a></li>
+					</ul>
+				</section>
+				<section>
+					<ul class="footer__list3">
+						<li class="list__item"><a href="/">About Chicago News</a></li>
+						<li class="list__item"><a href="/">Newsteam bios</a></li>
+						<li class="list__item"><a href="/">Weather Sketchers</a></li>
+						<li class="list__item"><a href="/">TV Listings</a></li>
+						<li class="list__item"><a href="/">JOBs - Interenship</a></li>
+						<li class="list__item"><a href="/">Contest & Promotion</a></li>
+						<li class="list__item"><a href="/">Community</a></li>
+					</ul>
+				</section>
+			</aside>
+		</footer>
+	</body>
+</html>
